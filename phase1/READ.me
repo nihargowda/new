@@ -1,1 +1,97 @@
 
+NIHAR’S FILE MANAGEMENT SYSTEM
+Developed by : Nihar HB
+Email: nihar.gowda12@gmail.com
+
+
+OBJECTIVE:
+ To develop the application which is used to perform certain operations on files.
+
+
+PRODUCT CAPABILITIES:
+  This product is capable of operations such as, adding files, deleting files, searching files and listing the files.
+
+
+USER INTERACTIONS:
+  This is a console based applications, all the interactions of the user will be in the console itself.
+
+ Duration of Sprints required :
+ I have divided implementing this application in 2 sprints of 7 days each  . In the first sprint I implemented adding files, deleting files and as well as listing files. In the second sprint I implemented searching files and other scanner input methods and documentation.
+
+
+
+GIT:
+Source code of this applications has been pushed to github. One can access those repository by clicking on below link:
+https://github.com/nihargowda/projects-simplilearn.git
+In this repository you can access my works In phase1 and link to that is given below, but its recommened to access my work through repository link given above. However I will be sharing direct link of my phase1 project below:
+https://github.com/nihargowda/projects-simplilearn/tree/master/phase1
+
+
+
+
+
+  Steps to be followed to pull my remote  repository to your system:
+1.	Open git and create directory by using command  mkdir name (where name indicates directory name)
+2.	Check its location and navigate to  directory and open git bash at that location
+3.	Create the  empty git  repository using commnd git init 
+    Now create pull request my using command git pull
+https://github.com/nihargowda/projects-simplilearn.git
+
+4.	Check the contents in directory 
+5.	use command git add . to add files and command git commit –m “usermessage”  to commit changes.
+
+
+You can push to remote repositories using following commands
+1.	git init
+2.	git remote add origin “your repository url”
+3.	git add .
+4.	git commit –m “anymessage”
+5.	git push origin master
+JAVA CONCEPTS USED:
+File handling, Exception handling, loops, Scanner inputs, condition statements, OOPS concepts, Arrays, Sorting , Searching, Collections
+  
+Few Functions  and methods implemented in this application:
+
+1.	 f1.delete() : This returns Boolean value. It returns true if and only if directory is successfully deleted.
+
+2.	 f2.createNewFile(): This function is a part File class. This function creates a new empty file. The function returns true if the abstract file path doesnot exist and new file is created. It returns false if file name already exists.
+
+3.	   f2.exists() : This functions returns True if File already exists in the given path or returns false if File doesnot exists.
+
+        4.     Arrays.sort() :    It by default sorts Array  in ascending           order
+
+
+5. System.in :  System.in is an InputStream which is typically connected to keyboard input of console programs.  commonly passed to a command line Java application via command line arguments, files etc.
+
+6.	Switch Statements : Used  to select one of many code blocks to be executed.
+
+7.	While loop : The while statement continually executes a block of statements while a particular condition is true.
+
+8.	  The new keyword is a Java operator is used to  creates the object
+
+9.	Scanner : The Scanner class is used to get user input, and it is found in the java.util package.
+
+10.	System.exit(0) : Indicates successful termination
+
+
+
+
+
+
+The flow and features of the application:
+When the user open the screen he would get the welcome screen and below that main menu displays. Main menu consists of 3 options.
+1.	Option 1 to list files in ascending order.
+2.	Option 2 to add, delete, and search files. All the interactions are from user inputs
+3.	Option 3 to exit the application. 
+
+I have implemented this using switch statements. If the user user provides invalid input rather than option (1-3) it throws a invalid option and allows user to reenter their option. As this is user input applications, inputs from users is achieved by Scanner class.
+In option 2 there are sub options , that is
+1.	Option 1 to delete files. As this is case sensitive applications, user have to enter correct file name to delete it from directory. If the name of file which user try to delete doesn’t exists, then it shows file not found message. If the file exists then it deletes the file from that directory.
+2.	Option 2 to add files. As this is case sensitive applications, user have to enter correct file name to add it to directory. If name of file user trying to add exists already, then it shows message of file already exists, and user have to enter correct file name to add it to directory .
+3.	Option 3 is designed to search a file user want to search. This is a case sensitive application. User have to enter correct file name to search file, if file exists it returns found message. If file is not found, It returns not found message.  
+
+4.	Special option is provided for the user to navigate to main menu. If the user selects option 4 then the application navigates user to the main menu.
+
+
+Conclusion :
+This is the simple and user-friendly application and this comes in very handy. This application can add files , delete files ,search files and as well as list the files. Enhancing this application was simple and I could do that in less than 10 days. This application meets almost all basic needs of user and this is best compared to other applications of same features in the market 
